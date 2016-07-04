@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"README\"\nauthor: \"Etienne Low-Décarie\"\ndate: \"July 4, 2016\"\noutput: html_document\n---\n\nTo install package:\n\n1. Install and load devtools\n\n```\ninstall.packages(\"devtools\")\nrequire(devtools)\n```\n\n2. Install MPN\n\n```\ninstall_github(\"low-decarie/MPN\")\n```\n",
+    "created" : 1467650451245.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4039337644",
+    "id" : "C5802D2F",
+    "lastKnownWriteTime" : 1467651154,
+    "last_content_update" : 1467651154263,
+    "path" : "~/Documents/R/MPN/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

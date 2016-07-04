@@ -6,7 +6,9 @@ output: html_document
 ---
 
 To install package:
+
 1. Install and load devtools
+
 ```
 install.packages("devtools")
 require(devtools)
