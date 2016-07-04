@@ -1,0 +1,21 @@
+---
+title: "MPN"
+author: "Etienne Low-Decarie"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+$$\sum_{j=1}^k \frac{g_{j}m_{j}}{1-exp(-\lambda m_{j})}=\sum_{j=1}^k t_{j}m_{j}$$
+
+$$MPN=\lambda$$
+
+$k$ denotes the number of dilutions,  
+$g_{j}$ denotes the number of positive (or growth) tubes in the jth dilution,  
+$m_{j}$ denotes the amount of the original sample put in each tube in the jth dilution,  
+$t_{j}$ denotes the number of tubes in the $j$th dilution.  
+
+[FDA MPN calucations](http://www.fda.gov/Food/FoodScienceResearch/LaboratoryMethods/ucm109656.htm)

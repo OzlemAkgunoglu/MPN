@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#' Most Probable Number (MPN) calculator\n#'\n#' @param g the number of positive (or growth) tubes in the jth dilution\n#' @param m the amount of the original sample put in the tubes at each dilution.\n#' @param m the number of tubes at each dilution\n#' @return The most probable  \\code{x} and \\code{y}.\n#' @examples\n#' MPN(g=c(5,3,0),m=c(0.1,0.01,0.001),t=10)\n\nMPN <- function(g,m,t) {\n  min_fun <- function(lambda){\n    abs(sum(g*m/(1-exp(-lambda*m)))-sum(t*m))}\n  solution <- optimize(f=min_fun,\n        lower=0,\n        upper=100) #setting this too high can lead it to stick to these high values\n  return(solution$minimum)\n}\n\n\n# MPN <- function(g,m,t) {\n#   min_fun <- function(lambda){\n#     abs(sum(g*m/(1-exp(-lambda*m)))-sum(t*m))}\n#   solution <- optim(fn=min_fun,\n#       par=c(lambda=1),\n#       method=\"Brent\",\n#       lower=0,\n#       upper=100)\n# return(solution)\n# }\n\n\n\n",
+    "created" : 1467650015510.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2334289993",
+    "id" : "453477A1",
+    "lastKnownWriteTime" : 1467642241,
+    "last_content_update" : 1467642241,
+    "path" : "~/Documents/R/MPN/R/MPN.R",
+    "project_path" : "R/MPN.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
