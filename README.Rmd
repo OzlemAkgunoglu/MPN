@@ -15,6 +15,5 @@ require(devtools)
 2. Install MPN
 
 ```
-install.packages("devtools")
-require(devtools)
+install_github("low-decarie/MPN")
 ```
