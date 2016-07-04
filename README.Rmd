@@ -1,0 +1,20 @@
+---
+title: "README"
+author: "Etienne Low-Décarie"
+date: "July 4, 2016"
+output: html_document
+---
+
+To install package:
+1. Install and load devtools
+```
+install.packages("devtools")
+require(devtools)
+```
+
+2. Install MPN
+
+```
+install.packages("devtools")
+require(devtools)
+```
