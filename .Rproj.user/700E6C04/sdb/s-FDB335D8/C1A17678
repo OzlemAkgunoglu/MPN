@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#Man, J.C., 1983. MPN tables, corrected. Eur. J. Appl. Microbiol. Biotechnol. 17, 301–305. doi:10.1007/BF00508025\n",
+    "created" : 1467713370251.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "623108517",
+    "id" : "C1A17678",
+    "lastKnownWriteTime" : 1467713460,
+    "last_content_update" : 1467713460829,
+    "path" : "~/Documents/R/MPN/R/Combinatorial_MPN_CI.R",
+    "project_path" : "R/Combinatorial_MPN_CI.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
